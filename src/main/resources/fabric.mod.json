@@ -1,28 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "gensokraft",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Gensokraft",
+	"description": "Bringing Gensokyo to life in Minecraft.",
 	"authors": [
-		"Me!"
+		"wiyu"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://wiyu.dev",
+		"sources": "https://github.com/wiyus/Gensokraft"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/template-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.wiyu.gensokraft.TemplateMod"
+          "org.wiyu.gensokraft.Gensokraft"
 		],
 		"client": [
-			"org.wiyu.gensokraft.TemplateModClient"
+			"org.wiyu.gensokraft.GensokraftClient"
 		],
 		"fabric-datagen": [
-			"org.wiyu.gensokraft.TemplateModDataGenerator"
+			"org.wiyu.gensokraft.GensokraftDataGenerator"
 		]
 	},
 	"mixins": [
