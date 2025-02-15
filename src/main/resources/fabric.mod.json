@@ -26,9 +26,9 @@
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json",
+		"gensokraft.mixins.json",
 		{
-			"config": "template-mod.client.mixins.json",
+			"config": "gensokraft.client.mixins.json",
 			"environment": "client"
 		}
 	],
