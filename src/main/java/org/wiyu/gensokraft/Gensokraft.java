@@ -4,9 +4,10 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.wiyu.gensokraft.items.ModItems;
 
 public class Gensokraft implements ModInitializer {
-	public static final String MOD_ID = "template-mod";
+	public static final String MOD_ID = "gensokraft";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -18,7 +19,6 @@ public class Gensokraft implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.initialize();
 	}
 }
