@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "gensokraft:item/homing_amulet"
+  "model": {
+    "type" : "minecraft:model",
+    "model": "gensokraft:item/homing_amulet"
   }
 }
