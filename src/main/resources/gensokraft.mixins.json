@@ -3,7 +3,7 @@
 	"package": "org.wiyu.gensokraft.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"GensokraftMixin"
+		"GensokraftMixin", "PlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

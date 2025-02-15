@@ -1,0 +1,9 @@
+{
+  "death": {
+    "subtitle": "subtitles.gensokraft.death",
+    "sounds": [
+      "gensokraft:death"
+    ]
+  }
+}
+

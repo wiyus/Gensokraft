@@ -6,6 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.wiyu.gensokraft.items.ModItems;
 
+import static org.wiyu.gensokraft.SoundManager.*;
+
 public class Gensokraft implements ModInitializer {
 	public static final String MOD_ID = "gensokraft";
 
@@ -14,11 +16,13 @@ public class Gensokraft implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.initialize();
+		SoundManager.initialize();
 	}
 }
